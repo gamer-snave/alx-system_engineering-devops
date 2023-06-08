@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 mkdir -m 751 my_dir
+=======
+mkdir my_dir, chmod 751
+>>>>>>> fcf6e1e2f838a6e02890a031f73375e849c4d253
