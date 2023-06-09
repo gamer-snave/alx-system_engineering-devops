@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1A | sed -e 's/^/ /' -e 's/$/ /' | paste -sd ','
+ls -1Ap | sed 's/\([^/]\)$/\1\//' | paste -sd ','
