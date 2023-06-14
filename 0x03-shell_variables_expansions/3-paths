@@ -1,2 +1,2 @@
 #!/bin/bash
-IFS=':' read -ra DIRS <<< "$PATH" echo "${#DIRS[@]}"
+count=${PATH//[^:]/}; echo "${#count}"
